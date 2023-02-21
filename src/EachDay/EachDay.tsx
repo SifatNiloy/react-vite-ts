@@ -1,5 +1,9 @@
 import React from 'react'
+import styled from 'styled-components';
+const GreenColor= styled.button`
+background:#2DA771;
 
+`
 const EachDay = () => {
   return (
     <div style={{color:'rgba(0, 0, 0, 0.5)'}}>
