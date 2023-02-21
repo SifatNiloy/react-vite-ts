@@ -1,9 +1,9 @@
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
-
-export default defineConfig({
-  plugins: [react()],
+import svgr from 'vite-plugin-svgr'
+export default {
+  plugins: [svgr()],
   build: {
     outDir: 'dist',
   },
-});
+};
